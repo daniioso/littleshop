@@ -1,0 +1,81 @@
+h1 {color: #372D40;
+  font-size:80pt;
+  font-family: 'Lora', serif;
+  text-align:center;
+  animation:colora 7s ease-in-out infinite;
+}
+
+body {background-color:#C5A3E6;
+  margin:3rem;  
+}
+h2 {color: #372D40}
+p {font-family: 'Lora', serif;
+  font-size:20px
+}
+img {
+  width:500px;
+}
+section{
+  display:flex;
+}
+figure{
+  display:flex;
+  align-self:flex-start;
+  position:sticky;
+  top:1rem;
+  padding:2rem;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*musicnote*/
+.musicnote {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3b5.png) 36 36, auto;
+}
+
+/*book*/
+.book {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4d6.png) 36 36, auto;
+}
+
+/*heart*/
+.heart{
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f497.png) 36 36, auto;
+}
+
+/*color changing animation*/
+@keyframes colora {
+  0% {color:#a31818}
+  25%{color:#d3394c}
+  50%{color:#af2d46}
+  75%{color:#8b2444}
+  100%{color:#8b2444}
+}
+
+button{
+background-color:#af2d46;
+  font-size:12pt;
+  padding: 10px;
